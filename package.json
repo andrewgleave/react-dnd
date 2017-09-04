@@ -1,10 +1,10 @@
 {
   "name": "react-dnd-master",
-  "private": true,
   "description": "React-DnD Monorepo",
+  "version": "2.5.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-dnd/react-dnd.git"
+    "url": "https://github.com/andrewgleave/react-dnd.git"
   },
   "keywords": [
     "react",
@@ -87,7 +87,8 @@
   "jest": {
     "moduleNameMapper": {
       "^react-dnd$": "<rootDir>/packages/react-dnd/src",
-      "react-dnd-html5-backend": "<rootDir>//packages/react-dnd-html5-backend/src",
+      "react-dnd-html5-backend":
+        "<rootDir>//packages/react-dnd-html5-backend/src",
       "dnd-core": "<rootDir>//packages/dnd-core/src"
     }
   }
